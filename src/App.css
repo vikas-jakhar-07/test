@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Aeonik', sans-serif !important;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-REGULARITALIC.TTF');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-REGULAR.TTF');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-LIGHTITALIC.TTF');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-LIGHT.TTF');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-BOLDITALIC.TTF');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "AeonikTRIAL";
+    src: url('./assets/fonts/AEONIK-BOLD.TTF');
+    font-weight: 700;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #33B6FF;
+}
+
+.hero .rfm-marquee-container {
+    overflow-x: visible !important;
+}
+
+.building .rfm-marquee-container {
+    width: 133%;
+}
+
+.swiper-free-mode>.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+@media (min-width:1921px) {
+    .min-h-1100 {
+        min-height: 1100px !important;
+    }
+}
